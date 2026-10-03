@@ -1,0 +1,23 @@
+# Original company data stays local.
+/data/*.csv
+
+# Local environments, notebooks' runtime files, and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.matplotlib/
+.ipython/
+.jupyter/
+.pytest_cache/
+
+# Credentials and secrets.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
